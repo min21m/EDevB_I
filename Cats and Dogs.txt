@@ -1,1 +1,2 @@
-50 Cats
+30 Cats
+85 Dogs

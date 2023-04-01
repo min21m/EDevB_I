@@ -6,8 +6,9 @@
 
   (title_block
     (title "Dev Board")
-    (date "2023-03-25")
+    (date "2023-04-01")
     (rev "A")
+    (company "MIN21M")
     (comment 1 "Rev A: Changed U5 footprint from MSOP-8 to SOIC-8 ")
   )
 

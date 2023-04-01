@@ -8,7 +8,7 @@
     (title "Dev Board")
     (date "2023-04-01")
     (rev "A")
-    (company "MIN21M")
+    (company "Min21m")
     (comment 1 "Rev A: Changed U5 footprint from MSOP-8 to SOIC-8 ")
   )
 

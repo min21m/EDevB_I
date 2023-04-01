@@ -1,0 +1,1019 @@
+(export 
+  (version "E") 
+  (design 
+    (source "C:\\PROJECTS\\Embedded Dev Board\\Hardware\\Dev_Board\\Dev_Board.kicad_sch") 
+    (date "3/25/2023 10:31:24 AM") 
+    (tool "Eeschema (6.0.9)") 
+    (sheet 
+      (number "1") 
+      (name "/") 
+      (tstamps "/") 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source "Dev_Board.kicad_sch") 
+        (comment 
+          (number "1") 
+          (value "")) 
+        (comment 
+          (number "2") 
+          (value "")) 
+        (comment 
+          (number "3") 
+          (value "")) 
+        (comment 
+          (number "4") 
+          (value "")) 
+        (comment 
+          (number "5") 
+          (value "")) 
+        (comment 
+          (number "6") 
+          (value "")) 
+        (comment 
+          (number "7") 
+          (value "")) 
+        (comment 
+          (number "8") 
+          (value "")) 
+        (comment 
+          (number "9") 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref "C1") 
+      (value "C_Polarized_Small_US") 
+      (footprint "Capacitor_SMD:C_0603_1608Metric") 
+      (libsource 
+        (lib "Device") 
+        (part "C_Polarized_Small_US") 
+        (description "Polarized capacitor, small US symbol")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Dev_Board.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "3c44a0e3-5220-41cb-8dd8-27be39abe429")) 
+    (comp 
+      (ref "C2") 
+      (value "C_Polarized_Small_US") 
+      (footprint "Capacitor_SMD:C_0603_1608Metric") 
+      (libsource 
+        (lib "Device") 
+        (part "C_Polarized_Small_US") 
+        (description "Polarized capacitor, small US symbol")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Dev_Board.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "0ce9f24c-0bec-4c97-9fc7-e5d46361f10c")) 
+    (comp 
+      (ref "J1") 
+      (value "Barrel_Jack_Switch_Pin3Ring") 
+      (footprint "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002") 
+      (libsource 
+        (lib "Connector") 
+        (part "Barrel_Jack_Switch_Pin3Ring") 
+        (description "DC Barrel Jack with an internal switch")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Dev_Board.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "6cbb4851-8681-4fd6-b0b7-0db02dae4fba")) 
+    (comp 
+      (ref "RV1") 
+      (value "R_Potentiometer") 
+      (footprint "Potentiometer_THT:Potentiometer_Bourns_3299W_Vertical") 
+      (libsource 
+        (lib "Device") 
+        (part "R_Potentiometer") 
+        (description "Potentiometer")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Dev_Board.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "0ab00514-c299-4004-9723-5d4d02881e2e")) 
+    (comp 
+      (ref "U1") 
+      (value "NCP1117-3.3_SOT223") 
+      (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2") 
+      (datasheet "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF") 
+      (libsource 
+        (lib "Regulator_Linear") 
+        (part "NCP1117-3.3_SOT223") 
+        (description "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Dev_Board.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "f8b388db-649f-4454-afe0-926099c59e41")) 
+    (comp 
+      (ref "U2") 
+      (value "Arduino_UNO_R3") 
+      (footprint "Module:Arduino_UNO_R3") 
+      (datasheet "https://www.arduino.cc/en/Main/arduinoBoardUno") 
+      (libsource 
+        (lib "MCU_Module") 
+        (part "Arduino_UNO_R3") 
+        (description "Arduino UNO Microcontroller Module, release 3")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Dev_Board.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "1353e33a-1fb8-4b8c-aa25-03c2eff2f22a")) 
+    (comp 
+      (ref "U3") 
+      (value "AT25SF081-SSHD-X") 
+      (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm") 
+      (datasheet "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf") 
+      (libsource 
+        (lib "Memory_Flash") 
+        (part "AT25SF081-SSHD-X") 
+        (description "8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Dev_Board.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "74cb4547-62a1-48b4-b279-ea719c017f92")) 
+    (comp 
+      (ref "U4") 
+      (value "AT25SF081-SSHD-X") 
+      (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm") 
+      (datasheet "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf") 
+      (libsource 
+        (lib "Memory_Flash") 
+        (part "AT25SF081-SSHD-X") 
+        (description "8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Dev_Board.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "56d34752-a4aa-49a0-93c3-78f59ba1cc6d")) 
+    (comp 
+      (ref "U5") 
+      (value "MCP3550-60-ESN") 
+      (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm") 
+      (datasheet "http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf") 
+      (libsource 
+        (lib "Analog_ADC") 
+        (part "MCP3550-60-ESN") 
+        (description "Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, 60Hz Rejection, MSOP-8")) 
+      (property 
+        (name "Digikey") 
+        (value "")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Dev_Board.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "36932855-3ca7-4c22-932c-7ada6196f22c"))) 
+  (libparts 
+    (libpart 
+      (lib "Analog_ADC") 
+      (part "MCP3550-60-ESN") 
+      (description "Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, 60Hz Rejection, MSOP-8") 
+      (docs "http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf") 
+      (footprints 
+        (fp "SO*")) 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "MCP3550-60-ESN") 
+        (field 
+          (name "Datasheet") "http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "Vref") 
+          (type "input")) 
+        (pin 
+          (num "2") 
+          (name "Vin+") 
+          (type "passive")) 
+        (pin 
+          (num "3") 
+          (name "Vin-") 
+          (type "passive")) 
+        (pin 
+          (num "4") 
+          (name "VSS") 
+          (type "power_in")) 
+        (pin 
+          (num "5") 
+          (name "SCK") 
+          (type "input")) 
+        (pin 
+          (num "6") 
+          (name "SDO/~{RDY}") 
+          (type "output")) 
+        (pin 
+          (num "7") 
+          (name "~{CS}") 
+          (type "input")) 
+        (pin 
+          (num "8") 
+          (name "VDD") 
+          (type "power_in")))) 
+    (libpart 
+      (lib "Connector") 
+      (part "Barrel_Jack_Switch_Pin3Ring") 
+      (description "DC Barrel Jack with an internal switch") 
+      (docs "~") 
+      (footprints 
+        (fp "BarrelJack*")) 
+      (fields 
+        (field 
+          (name "Reference") "J") 
+        (field 
+          (name "Value") "Barrel_Jack_Switch_Pin3Ring") 
+        (field 
+          (name "Datasheet") "~")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "3") 
+          (name "") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Device") 
+      (part "C_Polarized_Small_US") 
+      (description "Polarized capacitor, small US symbol") 
+      (docs "~") 
+      (footprints 
+        (fp "CP_*")) 
+      (fields 
+        (field 
+          (name "Reference") "C") 
+        (field 
+          (name "Value") "C_Polarized_Small_US") 
+        (field 
+          (name "Datasheet") "~")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Device") 
+      (part "R_Potentiometer") 
+      (description "Potentiometer") 
+      (docs "~") 
+      (footprints 
+        (fp "Potentiometer*")) 
+      (fields 
+        (field 
+          (name "Reference") "RV") 
+        (field 
+          (name "Value") "R_Potentiometer") 
+        (field 
+          (name "Datasheet") "~")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "1") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "2") 
+          (type "passive")) 
+        (pin 
+          (num "3") 
+          (name "3") 
+          (type "passive")))) 
+    (libpart 
+      (lib "MCU_Module") 
+      (part "Arduino_UNO_R3") 
+      (description "Arduino UNO Microcontroller Module, release 3") 
+      (docs "https://www.arduino.cc/en/Main/arduinoBoardUno") 
+      (footprints 
+        (fp "Arduino*UNO*R3*")) 
+      (fields 
+        (field 
+          (name "Reference") "A") 
+        (field 
+          (name "Value") "Arduino_UNO_R3") 
+        (field 
+          (name "Footprint") "Module:Arduino_UNO_R3") 
+        (field 
+          (name "Datasheet") "https://www.arduino.cc/en/Main/arduinoBoardUno")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "NC") 
+          (type "no_connect")) 
+        (pin 
+          (num "2") 
+          (name "IOREF") 
+          (type "output")) 
+        (pin 
+          (num "3") 
+          (name "~{RESET}") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "3V3") 
+          (type "power_out")) 
+        (pin 
+          (num "5") 
+          (name "+5V") 
+          (type "power_out")) 
+        (pin 
+          (num "6") 
+          (name "GND") 
+          (type "power_in")) 
+        (pin 
+          (num "7") 
+          (name "GND") 
+          (type "power_in")) 
+        (pin 
+          (num "8") 
+          (name "VIN") 
+          (type "power_in")) 
+        (pin 
+          (num "9") 
+          (name "A0") 
+          (type "bidirectional")) 
+        (pin 
+          (num "10") 
+          (name "A1") 
+          (type "bidirectional")) 
+        (pin 
+          (num "11") 
+          (name "A2") 
+          (type "bidirectional")) 
+        (pin 
+          (num "12") 
+          (name "A3") 
+          (type "bidirectional")) 
+        (pin 
+          (num "13") 
+          (name "SDA/A4") 
+          (type "bidirectional")) 
+        (pin 
+          (num "14") 
+          (name "SCL/A5") 
+          (type "bidirectional")) 
+        (pin 
+          (num "15") 
+          (name "D0/RX") 
+          (type "bidirectional")) 
+        (pin 
+          (num "16") 
+          (name "D1/TX") 
+          (type "bidirectional")) 
+        (pin 
+          (num "17") 
+          (name "D2") 
+          (type "bidirectional")) 
+        (pin 
+          (num "18") 
+          (name "D3") 
+          (type "bidirectional")) 
+        (pin 
+          (num "19") 
+          (name "D4") 
+          (type "bidirectional")) 
+        (pin 
+          (num "20") 
+          (name "D5") 
+          (type "bidirectional")) 
+        (pin 
+          (num "21") 
+          (name "D6") 
+          (type "bidirectional")) 
+        (pin 
+          (num "22") 
+          (name "D7") 
+          (type "bidirectional")) 
+        (pin 
+          (num "23") 
+          (name "D8") 
+          (type "bidirectional")) 
+        (pin 
+          (num "24") 
+          (name "D9") 
+          (type "bidirectional")) 
+        (pin 
+          (num "25") 
+          (name "D10") 
+          (type "bidirectional")) 
+        (pin 
+          (num "26") 
+          (name "D11") 
+          (type "bidirectional")) 
+        (pin 
+          (num "27") 
+          (name "D12") 
+          (type "bidirectional")) 
+        (pin 
+          (num "28") 
+          (name "D13") 
+          (type "bidirectional")) 
+        (pin 
+          (num "29") 
+          (name "GND") 
+          (type "power_in")) 
+        (pin 
+          (num "30") 
+          (name "AREF") 
+          (type "input")) 
+        (pin 
+          (num "31") 
+          (name "SDA/A4") 
+          (type "bidirectional")) 
+        (pin 
+          (num "32") 
+          (name "SCL/A5") 
+          (type "bidirectional")))) 
+    (libpart 
+      (lib "Memory_Flash") 
+      (part "AT25SF081-SSHD-X") 
+      (description "8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8") 
+      (docs "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf") 
+      (footprints 
+        (fp "SOIC?8*3.9x4.9mm*P1.27mm*")) 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "AT25SF081-SSHD-X") 
+        (field 
+          (name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm") 
+        (field 
+          (name "Datasheet") "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "~{CS}") 
+          (type "input")) 
+        (pin 
+          (num "2") 
+          (name "SO/IO1") 
+          (type "bidirectional")) 
+        (pin 
+          (num "3") 
+          (name "~{WP}/IO2") 
+          (type "bidirectional")) 
+        (pin 
+          (num "4") 
+          (name "GND") 
+          (type "power_in")) 
+        (pin 
+          (num "5") 
+          (name "SI/IO0") 
+          (type "bidirectional")) 
+        (pin 
+          (num "6") 
+          (name "SCK") 
+          (type "input")) 
+        (pin 
+          (num "7") 
+          (name "~{HOLD}/IO3") 
+          (type "bidirectional")) 
+        (pin 
+          (num "8") 
+          (name "VCC") 
+          (type "power_in")))) 
+    (libpart 
+      (lib "Regulator_Linear") 
+      (part "NCP1117-3.3_SOT223") 
+      (description "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223") 
+      (docs "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF") 
+      (footprints 
+        (fp "SOT?223*TabPin2*")) 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "NCP1117-3.3_SOT223") 
+        (field 
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-223-3_TabPin2") 
+        (field 
+          (name "Datasheet") "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "GND") 
+          (type "power_in")) 
+        (pin 
+          (num "2") 
+          (name "VO") 
+          (type "power_out")) 
+        (pin 
+          (num "3") 
+          (name "VI") 
+          (type "power_in"))))) 
+  (libraries 
+    (library 
+      (logical "Analog_ADC") 
+      (uri "C:\\Program Files\\KiCad\\6.0\\share\\kicad\\symbols\\/Analog_ADC.kicad_sym")) 
+    (library 
+      (logical "Connector") 
+      (uri "C:\\Program Files\\KiCad\\6.0\\share\\kicad\\symbols\\/Connector.kicad_sym")) 
+    (library 
+      (logical "Device") 
+      (uri "C:\\Program Files\\KiCad\\6.0\\share\\kicad\\symbols\\/Device.kicad_sym")) 
+    (library 
+      (logical "MCU_Module") 
+      (uri "C:\\Program Files\\KiCad\\6.0\\share\\kicad\\symbols\\/MCU_Module.kicad_sym")) 
+    (library 
+      (logical "Memory_Flash") 
+      (uri "C:\\Program Files\\KiCad\\6.0\\share\\kicad\\symbols\\/Memory_Flash.kicad_sym")) 
+    (library 
+      (logical "Regulator_Linear") 
+      (uri "C:\\Program Files\\KiCad\\6.0\\share\\kicad\\symbols\\/Regulator_Linear.kicad_sym"))) 
+  (nets 
+    (net 
+      (code "1") 
+      (name "/MISO") 
+      (node 
+        (ref "U2") 
+        (pin "12") 
+        (pinfunction "A3") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U3") 
+        (pin "2") 
+        (pinfunction "SO/IO1") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U4") 
+        (pin "2") 
+        (pinfunction "SO/IO1") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U5") 
+        (pin "6") 
+        (pinfunction "SDO/~{RDY}") 
+        (pintype "output"))) 
+    (net 
+      (code "2") 
+      (name "/MOSI") 
+      (node 
+        (ref "U2") 
+        (pin "11") 
+        (pinfunction "A2") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U3") 
+        (pin "5") 
+        (pinfunction "SI/IO0") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U4") 
+        (pin "5") 
+        (pinfunction "SI/IO0") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "3") 
+      (name "/SCK") 
+      (node 
+        (ref "U2") 
+        (pin "13") 
+        (pinfunction "SDA/A4") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U3") 
+        (pin "6") 
+        (pinfunction "SCK") 
+        (pintype "input")) 
+      (node 
+        (ref "U4") 
+        (pin "6") 
+        (pinfunction "SCK") 
+        (pintype "input")) 
+      (node 
+        (ref "U5") 
+        (pin "5") 
+        (pinfunction "SCK") 
+        (pintype "input"))) 
+    (net 
+      (code "4") 
+      (name "GND") 
+      (node 
+        (ref "C1") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C2") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "J1") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "J1") 
+        (pin "3") 
+        (pintype "passive")) 
+      (node 
+        (ref "RV1") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "1") 
+        (pinfunction "GND") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U2") 
+        (pin "29") 
+        (pinfunction "GND") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U2") 
+        (pin "6") 
+        (pinfunction "GND") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U2") 
+        (pin "7") 
+        (pinfunction "GND") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U3") 
+        (pin "4") 
+        (pinfunction "GND") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U4") 
+        (pin "4") 
+        (pinfunction "GND") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U5") 
+        (pin "3") 
+        (pinfunction "Vin-") 
+        (pintype "passive")) 
+      (node 
+        (ref "U5") 
+        (pin "4") 
+        (pinfunction "VSS") 
+        (pintype "power_in"))) 
+    (net 
+      (code "5") 
+      (name "Net-(C1-Pad1)") 
+      (node 
+        (ref "C1") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "J1") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "3") 
+        (pinfunction "VI") 
+        (pintype "power_in"))) 
+    (net 
+      (code "6") 
+      (name "Net-(C2-Pad1)") 
+      (node 
+        (ref "C2") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "RV1") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "2") 
+        (pinfunction "VO") 
+        (pintype "power_out")) 
+      (node 
+        (ref "U3") 
+        (pin "3") 
+        (pinfunction "~{WP}/IO2") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U3") 
+        (pin "8") 
+        (pinfunction "VCC") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U4") 
+        (pin "3") 
+        (pinfunction "~{WP}/IO2") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U4") 
+        (pin "8") 
+        (pinfunction "VCC") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U5") 
+        (pin "1") 
+        (pinfunction "Vref") 
+        (pintype "input")) 
+      (node 
+        (ref "U5") 
+        (pin "8") 
+        (pinfunction "VDD") 
+        (pintype "power_in"))) 
+    (net 
+      (code "7") 
+      (name "Net-(RV1-Pad2)") 
+      (node 
+        (ref "RV1") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U5") 
+        (pin "2") 
+        (pinfunction "Vin+") 
+        (pintype "passive"))) 
+    (net 
+      (code "8") 
+      (name "Net-(U2-Pad9)") 
+      (node 
+        (ref "U2") 
+        (pin "9") 
+        (pinfunction "A0") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U5") 
+        (pin "7") 
+        (pinfunction "~{CS}") 
+        (pintype "input"))) 
+    (net 
+      (code "9") 
+      (name "Net-(U2-Pad17)") 
+      (node 
+        (ref "U2") 
+        (pin "17") 
+        (pinfunction "D2") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U4") 
+        (pin "1") 
+        (pinfunction "~{CS}") 
+        (pintype "input"))) 
+    (net 
+      (code "10") 
+      (name "Net-(U2-Pad18)") 
+      (node 
+        (ref "U2") 
+        (pin "18") 
+        (pinfunction "D3") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U4") 
+        (pin "7") 
+        (pinfunction "~{HOLD}/IO3") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "11") 
+      (name "Net-(U2-Pad19)") 
+      (node 
+        (ref "U2") 
+        (pin "19") 
+        (pinfunction "D4") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U3") 
+        (pin "1") 
+        (pinfunction "~{CS}") 
+        (pintype "input"))) 
+    (net 
+      (code "12") 
+      (name "Net-(U2-Pad20)") 
+      (node 
+        (ref "U2") 
+        (pin "20") 
+        (pinfunction "D5") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U3") 
+        (pin "7") 
+        (pinfunction "~{HOLD}/IO3") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "13") 
+      (name "unconnected-(U2-Pad1)") 
+      (node 
+        (ref "U2") 
+        (pin "1") 
+        (pinfunction "NC") 
+        (pintype "no_connect"))) 
+    (net 
+      (code "14") 
+      (name "unconnected-(U2-Pad2)") 
+      (node 
+        (ref "U2") 
+        (pin "2") 
+        (pinfunction "IOREF") 
+        (pintype "output"))) 
+    (net 
+      (code "15") 
+      (name "unconnected-(U2-Pad3)") 
+      (node 
+        (ref "U2") 
+        (pin "3") 
+        (pinfunction "~{RESET}") 
+        (pintype "input"))) 
+    (net 
+      (code "16") 
+      (name "unconnected-(U2-Pad4)") 
+      (node 
+        (ref "U2") 
+        (pin "4") 
+        (pinfunction "3V3") 
+        (pintype "power_out"))) 
+    (net 
+      (code "17") 
+      (name "unconnected-(U2-Pad5)") 
+      (node 
+        (ref "U2") 
+        (pin "5") 
+        (pinfunction "+5V") 
+        (pintype "power_out"))) 
+    (net 
+      (code "18") 
+      (name "unconnected-(U2-Pad8)") 
+      (node 
+        (ref "U2") 
+        (pin "8") 
+        (pinfunction "VIN") 
+        (pintype "power_in"))) 
+    (net 
+      (code "19") 
+      (name "unconnected-(U2-Pad10)") 
+      (node 
+        (ref "U2") 
+        (pin "10") 
+        (pinfunction "A1") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "20") 
+      (name "unconnected-(U2-Pad14)") 
+      (node 
+        (ref "U2") 
+        (pin "14") 
+        (pinfunction "SCL/A5") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "21") 
+      (name "unconnected-(U2-Pad15)") 
+      (node 
+        (ref "U2") 
+        (pin "15") 
+        (pinfunction "D0/RX") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "22") 
+      (name "unconnected-(U2-Pad16)") 
+      (node 
+        (ref "U2") 
+        (pin "16") 
+        (pinfunction "D1/TX") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "23") 
+      (name "unconnected-(U2-Pad21)") 
+      (node 
+        (ref "U2") 
+        (pin "21") 
+        (pinfunction "D6") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "24") 
+      (name "unconnected-(U2-Pad22)") 
+      (node 
+        (ref "U2") 
+        (pin "22") 
+        (pinfunction "D7") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "25") 
+      (name "unconnected-(U2-Pad23)") 
+      (node 
+        (ref "U2") 
+        (pin "23") 
+        (pinfunction "D8") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "26") 
+      (name "unconnected-(U2-Pad24)") 
+      (node 
+        (ref "U2") 
+        (pin "24") 
+        (pinfunction "D9") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "27") 
+      (name "unconnected-(U2-Pad25)") 
+      (node 
+        (ref "U2") 
+        (pin "25") 
+        (pinfunction "D10") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "28") 
+      (name "unconnected-(U2-Pad26)") 
+      (node 
+        (ref "U2") 
+        (pin "26") 
+        (pinfunction "D11") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "29") 
+      (name "unconnected-(U2-Pad27)") 
+      (node 
+        (ref "U2") 
+        (pin "27") 
+        (pinfunction "D12") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "30") 
+      (name "unconnected-(U2-Pad28)") 
+      (node 
+        (ref "U2") 
+        (pin "28") 
+        (pinfunction "D13") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "31") 
+      (name "unconnected-(U2-Pad30)") 
+      (node 
+        (ref "U2") 
+        (pin "30") 
+        (pinfunction "AREF") 
+        (pintype "input"))) 
+    (net 
+      (code "32") 
+      (name "unconnected-(U2-Pad31)") 
+      (node 
+        (ref "U2") 
+        (pin "31") 
+        (pinfunction "SDA/A4") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "33") 
+      (name "unconnected-(U2-Pad32)") 
+      (node 
+        (ref "U2") 
+        (pin "32") 
+        (pinfunction "SCL/A5") 
+        (pintype "bidirectional")))))

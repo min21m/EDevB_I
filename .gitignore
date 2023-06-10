@@ -33,3 +33,6 @@
 *.zip
 fp-info-cache
 DevBoard_I.kicad_pro
+Documentation/Project Purpose.docx
+measurement sample.png
+Python Dev Board DigiKey.xlsx

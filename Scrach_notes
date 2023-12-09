@@ -1,0 +1,6 @@
+1. Enable ADC Chip
+2. Wait for RDYL_ Signal
+3. Send the SCK to the ADC
+4. For teach SCK clock signal read ADC bits (Happens in the background)
+5. The data gets read back into your variable. When the data has been read you can use it. 
+
